@@ -1,0 +1,30 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin: 2rem;
+}
+
+.task-form {
+  margin-bottom: 1rem;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
