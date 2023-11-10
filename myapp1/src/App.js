@@ -5,7 +5,9 @@ import SignUp from "./pages/SignUp";
 import Layout from "./pages/Layout";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 // import Notfound from "./pages/Notfound";
-import Component1 from "./pages/Test";
+// import Component1 from "./pages/Test";
+import Notfound from "./pages/Notfound";
+import RegistrationForm from "./pages/form";
 
 function App(){
   return(
@@ -16,7 +18,8 @@ function App(){
           <Route path='contact' element={<ExampleComponent/>}/>
           <Route path='signin' element={<SignIn/>}/>
           <Route path='signup' element={<SignUp/>}/>
-          <Route path='*' element={<Component1/>}/>
+          <Route path="form" element={<RegistrationForm/>}/>
+          <Route path='*' element={<Notfound/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

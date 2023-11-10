@@ -17,6 +17,9 @@ function Layout(){
                     <li>
                         <Link to='/contact'>CONTACT</Link>
                     </li>
+                    <li>
+                        <Link to='/form'>FORM</Link>
+                    </li>
                 </ul>
             </nav>
             <Outlet/>
