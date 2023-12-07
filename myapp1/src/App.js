@@ -7,7 +7,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 // import Notfound from "./pages/Notfound";
 // import Component1 from "./pages/Test";
 import Notfound from "./pages/Notfound";
-import RegistrationForm from "./pages/form";
+import RegistrationForm from "./pages/SignUp";
 
 function App(){
   return(
